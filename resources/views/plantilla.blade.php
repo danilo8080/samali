@@ -17,16 +17,15 @@
             <a href="{{route('index')}}">Inicio</a>
             <a href="{{route('catalogo')}}">Catalogo</a>
             <a href="{{route('nosotros')}}">Nosotros</a>
-            <a href="#">Contacto</a>
         </nav>
         <div class="contenedor-imagen-nombre">
             <img class="img-nombre" src="{{asset('img/nombre.png')}}" alt="nombre">
         </div>
         <section class="textos-header">
-            
             <h1><strong>cocina artesanal</strong></h1>
             <h2>DESPENSA  ITALIANA</h2>
         </section>
+        
         <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: white;"></path></svg></div>
 
     </header>

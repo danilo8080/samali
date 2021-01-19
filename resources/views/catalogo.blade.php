@@ -16,8 +16,10 @@
             </ul>
         </div>
         @if($comando == null)
-            <img src="{{asset('img/catalogo.png')}}" alt="bambina">
+            <img class="img-catalogo" src="{{asset('img/catalogo.png')}}" alt="catalogo">
         @endif
+        @if($comando != null)
+        <a href="https://api.whatsapp.com/send?phone=[+57][3218791576]&text=Hola,%20me%20interesa%20uno%20de%20tus%20productos"  target="_blank"><img class="float" src="{{asset('img/whatsapp.png')}}" alt="imagenjerco"></a>
         @if($comando == "Tabla")
             <div class="producto">
                 <img src="{{asset('img/bambina.png')}}" alt="bambina">
@@ -110,6 +112,7 @@
             <div class="producto">
                 <img src="{{asset('img/raviolis-chorizo.png')}}" alt="raviolis-chorizo">
             </div>
+        @endif
         @endif
     </section>
 </main>
