@@ -22,8 +22,8 @@ header{
     height: 600px;
 
     background: #E11D1D ;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(352, 54%, 43%, 0.603), hsla(35, 84%, 45%, 0.404)), url('../img/fondo2.png');  
-    background: linear-gradient(to right, hsla(352, 54%, 43%, 0.603), hsla(35, 84%, 45%, 0.404)), url('../img/fondo2.png'); 
+    background: -webkit-linear-gradient(to right, hsla(352, 54%, 43%, 0.603), hsla(35, 84%, 45%, 0.404)), url('../img/fondo2.PNG');  
+    background: linear-gradient(to right, hsla(352, 54%, 43%, 0.603), hsla(35, 84%, 45%, 0.404)), url('../img/fondo2.PNG'); 
     background-size: cover;
     background-attachment: fixed;
     position: relative;
