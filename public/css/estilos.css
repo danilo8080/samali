@@ -204,6 +204,7 @@ footer{
     display: flex;
     margin: 5px;
     white-space: pre-line;
+    text-align: left;
 }
 /*
 .contenedor-img-nosotros{
@@ -217,13 +218,7 @@ footer{
     float: right;
 }
 
-.contenido-textos-nosotros p{
-    padding: 0px 0px 30px 15px;
-    font-weight: 300;
-    font-size: 105%;
-    color:  #4e2a12;
-    text-align: justify;
-}
+
 
 
 
@@ -395,10 +390,12 @@ footer{
 
 
 @media only screen and (max-width: 600px){
-    .contenedor-sobre-nosotros{
-        width: 90%;
-    }
 
+    .contenedor-sobre-nosotros{
+        width: 100%;
+        text-align: left;
+
+    }
     .imagen-nosotros{
         width: 60%;
     }

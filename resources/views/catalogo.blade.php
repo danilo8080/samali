@@ -46,7 +46,7 @@
                     Vino o sangría.</p>
             </div>
             <div class="producto">
-                <img src="{{asset('img/nobile.PNG')}}" alt="nobile">
+                <img src="{{asset('./img/nobile.PNG')}}" alt="nobile">
                 <h1 class="tituloProductos"><strong>Ingredientes : </strong></h1>
                 <p>queso cacciota, queso vezzena, queso al café, camembert, pasiego, chorizo italiano, prosciutto, salami, miel, aceitunas, uvas o fresas, chocolate amargo, tostadas, arándanos, almendras.   </p>
                 <h1 class="tituloProductos"><strong>Adiciones : </strong></h1>
@@ -54,7 +54,7 @@
                     Vino o sangría.</p>
             </div>
             <div class="producto">
-                <img src="{{asset('img/regina.PNG')}}" alt="regina">
+                <img src="{{asset('./img/regina.PNG')}}" alt="regina">
                 <h1 class="tituloProductos"><strong>Ingredientes : </strong></h1>
                 <p>queso cacciota, queso vezzena, queso al café, camembert, pasiego, chorizo italiano, prosciutto, salami, miel, aceitunas, uvas o fresas, chocolate amargo, tostadas, arándanos, almendras.   </p>
                 <h1 class="tituloProductos"><strong>Adiciones : </strong></h1>
@@ -87,7 +87,7 @@
         @endif
         @if($comando == "Raviolis")
         <div class="producto">
-            <img src="{{asset('img/raviolis.PNG')}}" alt="raviolis">
+            <img src="{{asset('./img/raviolis.PNG')}}" alt="raviolis">
             <p>Raviolis(500gr): <strong>$ 32.000</strong>  (jamón y queso, maduro y queso, tres quesos, jamón y pollo)</p>
             <p>Fettucini, Spaghetti, Fussili (500gr): <strong>$ 15.000</strong></p>
             <p>Lasaña: <strong>$ 17.000</strong>  (Boloñesa o pollo y chorizo italiano )</p>
