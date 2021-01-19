@@ -30,7 +30,7 @@
                     Vino o sangría</p>
             </div>
             <div class="producto">
-                <img src="{{asset('img/bella.png')}}" alt="bella">
+                <img src="{{asset('img/bella.PNG')}}" alt="bella">
                 <h1 class="tituloProductos"><strong>Ingredientes : </strong></h1>
                 <p>Queso cacciota, queso vezzena, queso al café, camembert, pasiego, chorizo italiano, salami, miel, aceitunas, uvas o fresas, chocolate amargo, tostadas, arándanos, almendras. </p>
                 <h1 class="tituloProductos"><strong>Adiciones : </strong></h1>
@@ -38,7 +38,7 @@
                     Vino o sangría.</p>
             </div>
             <div class="producto">
-                <img src="{{asset('img/awenturiera.png')}}" alt="awenturiera">
+                <img src="{{asset('img/awenturiera.PNG')}}" alt="awenturiera">
                 <h1 class="tituloProductos"><strong>Ingredientes : </strong></h1>
                 <p>queso cacciota, queso vezzena, queso al café, camembert, pasiego, chorizo italiano, salami, miel, aceitunas, uvas o fresas, chocolate amargo, tostadas, arándanos, almendras.  </p>
                 <h1 class="tituloProductos"><strong>Adiciones : </strong></h1>
@@ -46,7 +46,7 @@
                     Vino o sangría.</p>
             </div>
             <div class="producto">
-                <img src="{{asset('img/nobile.png')}}" alt="nobile">
+                <img src="{{asset('img/nobile.PNG')}}" alt="nobile">
                 <h1 class="tituloProductos"><strong>Ingredientes : </strong></h1>
                 <p>queso cacciota, queso vezzena, queso al café, camembert, pasiego, chorizo italiano, prosciutto, salami, miel, aceitunas, uvas o fresas, chocolate amargo, tostadas, arándanos, almendras.   </p>
                 <h1 class="tituloProductos"><strong>Adiciones : </strong></h1>
@@ -54,7 +54,7 @@
                     Vino o sangría.</p>
             </div>
             <div class="producto">
-                <img src="{{asset('img/regina.png')}}" alt="regina">
+                <img src="{{asset('img/regina.PNG')}}" alt="regina">
                 <h1 class="tituloProductos"><strong>Ingredientes : </strong></h1>
                 <p>queso cacciota, queso vezzena, queso al café, camembert, pasiego, chorizo italiano, prosciutto, salami, miel, aceitunas, uvas o fresas, chocolate amargo, tostadas, arándanos, almendras.   </p>
                 <h1 class="tituloProductos"><strong>Adiciones : </strong></h1>
@@ -65,7 +65,7 @@
         @endif
         @if($comando == "Quesos")
         <div class="producto">
-            <img src="{{asset('img/quesos.png')}}" alt="quesos">
+            <img src="{{asset('img/quesos.PNG')}}" alt="quesos">
             <div class="quesos">
                 <div class="suaves">
                     <h1 class="tituloProductos"><strong>Suaves : </strong></h1>
@@ -87,7 +87,7 @@
         @endif
         @if($comando == "Raviolis")
         <div class="producto">
-            <img src="{{asset('img/raviolis.png')}}" alt="raviolis">
+            <img src="{{asset('img/raviolis.PNG')}}" alt="raviolis">
             <p>Raviolis(500gr): <strong>$ 32.000</strong>  (jamón y queso, maduro y queso, tres quesos, jamón y pollo)</p>
             <p>Fettucini, Spaghetti, Fussili (500gr): <strong>$ 15.000</strong></p>
             <p>Lasaña: <strong>$ 17.000</strong>  (Boloñesa o pollo y chorizo italiano )</p>
@@ -98,19 +98,19 @@
         @endif
         @if($comando == "Otros")
             <div class="producto">
-                <img src="{{asset('img/lasaña.png')}}" alt="lasaña">
+                <img src="{{asset('img/lasaña.PNG')}}" alt="lasaña">
             </div>
             <div class="producto">
-                <img src="{{asset('img/porchetta.png')}}" alt="porchetta">
+                <img src="{{asset('img/porchetta.PNG')}}" alt="porchetta">
             </div>
             <div class="producto">
-                <img src="{{asset('img/canelones.png')}}" alt="canelones">
+                <img src="{{asset('img/canelones.PNG')}}" alt="canelones">
             </div>
             <div class="producto">
-                <img src="{{asset('img/costilla.png')}}" alt="costilla">
+                <img src="{{asset('img/costilla.PNG')}}" alt="costilla">
             </div>
             <div class="producto">
-                <img src="{{asset('img/raviolis-chorizo.png')}}" alt="raviolis-chorizo">
+                <img src="{{asset('img/raviolis-chorizo.PNG')}}" alt="raviolis-chorizo">
             </div>
         @endif
         @endif
